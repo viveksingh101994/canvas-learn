@@ -1,0 +1,34 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "test:prettier": "prettier --list-different \"src/**/*.{js,md}\"",
+    "fix:prettier": "prettier --single-quote --write \"src/**/*.{js,md}\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viveksingh101994/canvas-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viveksingh101994/canvas-learn/issues"
+  },
+  "homepage": "https://github.com/viveksingh101994/canvas-learn#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.3.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1"
+  }
+}
