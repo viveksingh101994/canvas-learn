@@ -1,0 +1,1 @@
+(self.webpackChunkcanvas=self.webpackChunkcanvas||[]).push([[930],{584:(s,t,i)=>{"use strict";i.d(t,{Z:()=>h});class h{constructor(s,t,i,h,a,c,e){this.x=s,this.y=t,this.r=i,this.g=h,this.b=a,this.imageX=c,this.imageY=e}draw(s){s.beginPath(),s.arc(this.x,this.y,2,0,2*Math.PI,!1),s.fillStyle="rgb("+this.r+", "+this.g+", "+this.b+")",s.fill()}}}},s=>{"use strict";s(s.s=584)}]);
